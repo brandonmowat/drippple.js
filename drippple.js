@@ -1,5 +1,10 @@
 $(document).ready(function($){
 	var xmlhttp = new XMLHttpRequest();
+	//########## HEY YOU! ##########
+	//######### YEAH YOU! ##########
+
+	// In this url variable, see where it says "/mowat"?
+	// replace that with your own dribbble username!
 	var url = "https://api.dribbble.com/v1/users/mowat/shots/?access_token=4b14b95f60442720be19906baf0bb1dad6eaa55aa38f88e4212c84ab91f37751";
 	var imgurls = [];
 

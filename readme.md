@@ -1,8 +1,9 @@
-Okay fun stuff right here.
+<h1>Say hello to DRIPPPLE.js</h1>
+<h3>What is drippple.js?</h3>
+<p>drippple is a small peice of javascript so that you can easily embed your dribbble shots on your own website!</p>
+<p>Pretty fuckin' neat right?</p>
 
-will grab your 4 most recent dribbble posts.
 
-well actually right now it only does mine.
 
 <h2>TODO:</h2>
 - Make more configurable
