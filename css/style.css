@@ -1,0 +1,33 @@
+    /* SIMPLE DEMO STYLES */
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    .container {
+      margin: 50px;
+      max-width: 700px;
+    }
+    .container img {
+      width: 50%;
+      float: left;
+    }
+    .container .pull-left {
+      width: 55%;
+      float: left;
+      margin: 20px 20px 20px -80px;
+    }
+    .container .pull-right {
+      width: 55%;
+      float: right;
+      margin: 20px -80px 20px 20px;
+    }
+    @media (min-width: 750px) {
+      body {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .container {
+        margin: 100px auto;
+      }
+    }

@@ -22,11 +22,12 @@ $(document).ready(function($){
 	}
 
 	function fill(arr) {
-	    var i;
-	    var out = "";
-	    for(i = 0; i < 4; i++) {
-	        out += '<div class="img-wrapp"> <img data-action="zoom"  src="' + arr[i] + '">' + '</div>';
-	    }
+	    var i = 0;
+	    var c = "";
+	    $('.drip').each(function() {
+	    	$(this).attr('src',arr[i]);
+	    	i++;
+	    });
 	    document.getElementById("drib").innerHTML = out;
 	}
 });
