@@ -3,8 +3,8 @@
 <h3>Quick Use:</h3>
 <p>include the .js file at the bottom of your body but AFTER you jQuery.</p>
 <code>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script type='text/javascript' src='./drippple.js'></script>
+	&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">&lt;/script>
+	&lt;script type='text/javascript' src='./drippple.js'>&lt;/script>
 </code>
 
 <h3>What is drippple.js?</h3>
