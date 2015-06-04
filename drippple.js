@@ -1,9 +1,10 @@
 $(document).ready(function($){
+	//code by Brandon Mowat
+	// please leave the credits,  thx bruh
 	var xmlhttp = new XMLHttpRequest();
 	//########## HEY YOU! ##########
 	//######### YEAH YOU! ##########
-
-	// In this url variable, see where it says "/mowat"?
+	// In this url variable, see where it says "/dchen"?
 	// replace that with your own dribbble username!
 	var url = "https://api.dribbble.com/v1/users/dchen/shots/?access_token=4b14b95f60442720be19906baf0bb1dad6eaa55aa38f88e4212c84ab91f37751";
 	var imgurls = [];
