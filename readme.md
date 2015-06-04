@@ -1,6 +1,7 @@
 <h1>Say hello to DRIPPPLE.js</h1>
 
 <h3>Quick Use:</h3>
+<a href="http://brandonmowat.github.io/drippple.js/">View the Demo</a>
 <p>1. include the .js file at the bottom of your body but AFTER you jQuery. Like this.</p>
 <pre><code>
 &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"&gt;&lt;/script&gt;
