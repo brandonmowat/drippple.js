@@ -2,10 +2,10 @@
 
 <h3>Quick Use:</h3>
 <p>include the .js file at the bottom of your body but AFTER you jQuery.</p>
-<code>
-	&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"&gt;&lt;/script&gt;
-	&lt;script type='text/javascript' src='./drippple.js'&gt;&lt;/script&gt;
-</code>
+<pre><code>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type='text/javascript' src='./drippple.js'></script>
+</code></pre>
 
 <h3>What is drippple.js?</h3>
 <p>drippple is a small peice of javascript so that you can easily embed your dribbble shots on your own website!</p>
