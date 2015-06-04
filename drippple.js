@@ -1,8 +1,7 @@
 $(document).ready(function($){
 	// code by Brandon Mowat
-	// Website -> http://brandonmowat.com
-	//
-	// read my words -> http://medium.com/@irl
+	// http://brandonmowat.com
+	// http://medium.com/@irl
 	// please leave the credits,  thx bruh
 	var xmlhttp = new XMLHttpRequest();
 	//########## HEY YOU! ##########
@@ -32,11 +31,9 @@ $(document).ready(function($){
 
 	function fill(arr) {
 	    var i = 0;
-	    var c = "";
 	    $('.drip').each(function() {
 	    	$(this).attr('src',arr[i]);
 	    	i++;
 	    });
-	    document.getElementById("drib").innerHTML = out;
 	}
 });
