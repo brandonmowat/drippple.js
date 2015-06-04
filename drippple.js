@@ -1,5 +1,7 @@
 $(document).ready(function($){
-	//code by Brandon Mowat
+	// code by Brandon Mowat
+	// http://brandonmowat.com
+	// http://medium.com/@irl
 	// please leave the credits,  thx bruh
 	var xmlhttp = new XMLHttpRequest();
 	//########## HEY YOU! ##########
