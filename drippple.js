@@ -31,11 +31,9 @@ $(document).ready(function($){
 
 	function fill(arr) {
 	    var i = 0;
-	    var c = "";
 	    $('.drip').each(function() {
 	    	$(this).attr('src',arr[i]);
 	    	i++;
 	    });
-	    document.getElementById("drib").innerHTML = out;
 	}
 });
