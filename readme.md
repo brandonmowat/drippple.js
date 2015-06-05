@@ -10,7 +10,7 @@
 <p>If you don't your website WILL blow up.</p>
 <p>2. Then, just <strong>add the class 'drip' to any img tags</strong> you want and your good to go!</br>
 eg.</p>
-</br><code>&lt;img class="drip" src=""&gt;</code>
+<code>&lt;img class="drip" src=""&gt;</code>
 
 <hr></hr>
 
