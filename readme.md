@@ -14,7 +14,7 @@
 <h3>What is drippple.js?</h3>
 <p>some more in depth (boring) shit here.</p>
 <p>drippple.js is a small peice of javascript so that you can easily embed your dribbble shots on your own website!</p>
-<p>It searches for all the img tags with the class "drip" and inserts the url to your dribbble shots inside the "src" attribute. So just put <code><img class="drip" src=""></code> and drippple does the rest!</p>
+<p>It searches for all the img tags with the class "drip" and inserts the url to your dribbble shots inside the "src" attribute. So just put </br><code>&lt;img class="drip" src=""&gt;</code></br> and drippple does the rest!</p>
 <p>Pretty fuckin' neat right?</p>
 
 <hr></hr>
