@@ -8,7 +8,7 @@ $(document).ready(function($){
 	//######### YEAH YOU! ##########
 	// In this url variable, see where it says "/dchen"?
 	// replace that with your own dribbble username!
-	var url = "https://api.dribbble.com/v1/users/dchen/shots/?access_token=4b14b95f60442720be19906baf0bb1dad6eaa55aa38f88e4212c84ab91f37751";
+	var url = "https://api.dribbble.com/v1/users/mowat/shots/?access_token=4b14b95f60442720be19906baf0bb1dad6eaa55aa38f88e4212c84ab91f37751";
 	var imgurls = [];
 
 	xmlhttp.onreadystatechange = function() {
