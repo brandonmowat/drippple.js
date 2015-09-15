@@ -2,17 +2,32 @@
 <html>
 <head>
 	<title>drippple.js</title>
-
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
 	<div class="container">
-		<h1>Welcome to DRIPPPLE.js!</h1>
+		<h1 class="titles">drippple.js</h1>
+		<h2 class="titles">Simple 1kb zero dependency dribbble shot loader</h2>
+		<p class="titles">Using dripppble is suuuuuper easy. You can download and read more about it <a href="https://github.com/brandonmowat/drippple.js">here.</a></p>
+		<br>
 		<p>
-			dripppleJS is the best and easiest way to show off all of your latest shots from dribbble.
+			1. Just include the drippple.js file on your website
+		<pre>
+			<code>&lt;script type='text/javascript' src='./drippple.js'&gt;&lt;/script&gt;</code>
+		</pre>
 		</p>
-		<p>Using dripppble is suuuuuper easy. You can download and read more about it <a href="https://github.com/brandonmowat/drippple.js">here.</a></p>
-		<p>dribbble shots via <a href="http://dribbble.com/dchen" target="_blank">http://dribbble.com/mowat</a></p>
+		<p>
+			2. Then just declare it with your username!
+			<pre>
+				<code>&lt;script&gt;drippple("yourusername");&lt;/script&gt;</code>
+			</pre>
+		</p>
+		<p>
+			3. add img tags with the class "drip" and you're good to go!
+			<pre>
+				<code>&lt;img class="drip" src=""&gt;</code>
+			</pre>
+		</p>
 
 		<img class="drip" src="">
 		<img class="drip" src="">
@@ -27,18 +42,7 @@
 
 
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type='text/javascript' src='./drippple.js'></script>
-  	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-43696740-10', 'auto');
-  ga('send', 'pageview');
-
-</script>
+	<script>drippple("mowat");</script>
 </body>
 </html>

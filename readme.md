@@ -2,12 +2,15 @@
 
 <h3>Quick Use:</h3>
 <a href="http://brandonmowat.github.io/drippple.js/">View the Demo</a>
-<p>1. include the .js file at the bottom of your body but AFTER you jQuery. Like this.</p>
+<p>1. include the .js file at the bottom of your body but AFTER your jQuery. Like this.</p>
 <pre><code>
 &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script type='text/javascript' src='./drippple.js'&gt;&lt;/script&gt;
 </code></pre>
-<p>2. Then, just <strong>add the class 'drip' to any img tags</strong> you want and your good to go!</p>
+<p>If you don't your website WILL blow up.</p>
+<p>2. Then, just <strong>add the class 'drip' to any img tags</strong> you want and your good to go!</br>
+eg.</p>
+<code>&lt;img class="drip" src=""&gt;</code>
 
 <hr></hr>
 
