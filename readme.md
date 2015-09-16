@@ -4,7 +4,6 @@
 <a href="http://brandonmowat.github.io/drippple.js/">View the Demo</a>
 ####1. include the .js file
 <pre><code>
-
 &lt;script type='text/javascript' src='path/to/drippple.js'&gt;&lt;/script&gt;
 </code></pre>
 ####2. let drippple know what your username is
