@@ -31,15 +31,6 @@ var drippple = function(user) {
 			console.log(imgurls);
 		}
 
-		// rewrite to not rely on jQuery
-		//
-		// function fill(arr) {
-		//     var i = 0;
-		//     $('.drip').each(function() {
-		//     	$(this).attr('src',arr[i]);
-		//     	i++;
-		//     });
-		// }
 		function insert(arr) {
 			var elements = document.querySelectorAll(".drip");
 			Array.prototype.forEach.call(elements, function(el, i){
